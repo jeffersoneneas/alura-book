@@ -1,7 +1,7 @@
 .topicos {
     background: var(--azul-degrade);
     text-align: center;
-    padding: 1em 0 ;
+    padding: 1em 0;
 }
 
 .topicos__titulo {
@@ -14,6 +14,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 10px;
 }
 
 .topicos__item {
@@ -27,4 +28,30 @@
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
+}
+
+@media screen and (min-width:1024px) {
+    .topicos__titulo {
+        font-size: 24px;
+    }
+
+    .topicos__link {
+        font-size: 24px;
+    }
+
+    .topicos__link:hover {
+        color: var(--laranja);
+        background-color: var(--branco);
+        transition: 0.5s;
+    }
+}
+
+@media screen and (min-width:1728px) {
+    .topicos {
+        padding: 3em;
+    }
+
+    .topicos__titulo {
+        font-size: 32px;
+    }
 }

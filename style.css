@@ -6,7 +6,9 @@
 @import url("css/contato.css");
 @import url("css/rodape.css");
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
 :root {
     --cor-de-fundo:#EBECEE;
@@ -16,8 +18,10 @@
     --azul-degrade:linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --azul: #002F52;
     --preto:#000000D9;
-
     --font-principal: 'Poppins',sans-serif;
+    --font-secundaria:'Josefin Sans', sans-serif;
+    --cinza-claro:#858585;
+    --cinza:#474646;
 }
 
 body {
