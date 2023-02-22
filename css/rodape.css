@@ -26,6 +26,11 @@ hr {
         font-size: 24px;
     }
 
+    .rodape__titulo-desenvolvido {
+        font-style: italic;
+        color: var(--laranja);
+    }
+
     .lista-rodape__item {
         display: flex;
         align-items: center;
